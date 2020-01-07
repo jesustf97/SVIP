@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/bottom_nav_reason_one"
+            android:enabled="true"
+            android:icon="@drawable/ic_mobile"
+            android:title="@string/reason_one_title"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/bottom_nav_reason_two"
+            android:enabled="true"
+            android:icon="@drawable/ic_bank"
+            android:title="@string/reason_two_title"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/bottom_nav_reason_three"
+            android:enabled="true"
+            android:icon="@drawable/ic_work"
+            android:title="@string/reason_three_title"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/bottom_nav_reason_four"
+            android:enabled="true"
+            android:icon="@drawable/ic_book"
+            android:title="@string/reason_four_title"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/bottom_nav_reason_five"
+            android:enabled="true"
+            android:icon="@drawable/ic_ios_icon"
+            android:title="@string/reason_five_title"
+            app:showAsAction="ifRoom"/>
+
+
+</menu>
