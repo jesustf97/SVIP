@@ -11,7 +11,7 @@
             style="@android:style/Widget.Material.Button.Inset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="24dp"
             android:paddingStart="@dimen/default_padding"
             android:paddingEnd="@dimen/default_padding"
             android:text="@string/see_reasons_button"
@@ -21,39 +21,49 @@
 
     <TextView
             android:id="@+id/question"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginStart="@dimen/default_padding"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="@dimen/default_padding"
+            android:fontFamily="casual"
+            android:text="@string/question"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:text="@string/question" />
+            app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
             android:id="@+id/answer"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:textStyle="bold"
+            android:layout_marginStart="@dimen/default_padding"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="@dimen/default_padding"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/answer"
+            android:textAlignment="center"
             android:textSize="18sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/question"
-            android:text="@string/answer" />
+            app:layout_constraintTop_toBottomOf="@+id/question" />
 
     <TextView
             android:id="@+id/textDirections"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginStart="@dimen/default_padding"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="@dimen/default_padding"
+            android:fontFamily="casual"
+            android:text="@string/directions"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/answer"
-            android:text="@string/directions" />
+            app:layout_constraintTop_toBottomOf="@+id/answer" />
 
     <ImageView
             android:id="@+id/image"
