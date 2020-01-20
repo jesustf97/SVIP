@@ -2,6 +2,7 @@
     <string name="app_name">Silicon Valley Internship</string>
 
     //Titles
+
     <string name="reason_one_title">Mobile Apps</string>
     <string name="reason_two_title">Internship</string>
     <string name="reason_three_title">Work</string>
@@ -17,16 +18,18 @@
     </string>
 
     <string name="reason_two_description">I had the opportunity to complete my internship in the
-        Holvi"'"s  mobile development team, a digital bank oriented to entrepreneurs, small and
-        medium enterprises with headquarters in Finland and offices in Madrid and Berlin. There I
-        learned and worked as an Android developer with an expert team applying Scrum methodology.
-        \nDuring this time, I have been implementing new features for Holvi"'"s Android native app such as a
-        QR code scanner and bar codes for invoices, as well as other design, development, testing,
-        optimization and support tasks.
+        Holvi "'"s mobile development team, a digital bank oriented to for freelancers and small
+        business owners. It is a FinTech company with headquarters in Finland and offices in Madrid
+        and Berlin. There, I learned and worked as an Android developer with an expert team applying
+        Scrum methodology. \n During this time, I have been implementing new features for Holvi "'"s
+        Android native app such as a QR code scanner and bar codes for invoices, as well as other
+        design, development, testing, optimization and support tasks.
     </string>
 
-    <string name="reason_three_description">I am currently working as a mobile developer at
-        TalentoMobile, a technology consulting company with different cool projects in Madrid.
+    <string name="reason_three_description">I am currently working as an Android developer at
+        TalentoMobile, a technology consulting company with different interesting projects in Madrid.
+        So far I have been working on projects focused on the health sector, telecommunications and
+        insurance companies.
     </string>
 
     <string name="reason_four_description">My graduation project has consisted of the development

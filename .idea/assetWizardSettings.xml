@@ -76,8 +76,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundImage" value="$USER_HOME$/Documents/Jesús/SVIP/fragments images/San francisco.jpg" />
-                                      <entry key="outputName" value="ic_sfo" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Documents/Jesús/Proyectos/SVIP/fragments images/icons/svip-logo-small.png" />
+                                      <entry key="foregroundLayerName" value="ic_app_main_icon" />
+                                      <entry key="outputName" value="ic_app_icon" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -160,11 +161,6 @@
                                 </PersistentState>
                               </value>
                             </entry>
-                          </map>
-                        </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
                           </map>
                         </option>
                       </PersistentState>
