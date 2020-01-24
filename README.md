@@ -3,4 +3,4 @@ Simple app written in Kotlin for the selection process of the Sillicon Valley In
 
 
 
-![](project-demo-svip.gif)
+![](demo-svip.gif)
